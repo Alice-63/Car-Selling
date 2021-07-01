@@ -76,6 +76,10 @@ function klick()
     
     
         autoAdd(auto)
+        for(i=0; i<inputArray.length; i++)
+        {
+            inputArray[i].value="";
+        }
     
     
 }

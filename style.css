@@ -21,6 +21,7 @@ body
 .anzeige>img
 {
     width: 100%;
+    padding: 5px;
 }
 .data
 {
@@ -50,12 +51,19 @@ body
     display: inline-block;
     margin-right: 5px;
 }
-
-#anzeigeContainer
+.line
 {
-  
+    width: 90%;
+    height: 2px;
+    background-color: darkorange;
+    margin: 25px;
+}
+#anzeigenContainer
+{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
 #inputs
 {
