@@ -68,6 +68,14 @@ function klick()
         kilometer:      inputArray[5].value,
         baujahr:        inputArray[6].value
     }
-
-    autoAdd(auto);
+    if(parseInt(auto.baujahr) <1990)
+    {
+        alert("Das Auto ist zu alt zu verkaufen")
+        return;
+    }
+    
+    
+        autoAdd(auto)
+    
+    
 }
