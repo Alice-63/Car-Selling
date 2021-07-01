@@ -64,7 +64,7 @@ function klick()
         titel:          inputArray[1].value,
         untertitel:     inputArray[2].value,
         kraftstoff:     inputArray[3].value,
-        motorrleistug:  inputArray[4].value,
+        motorleistung:  inputArray[4].value,
         kilometer:      inputArray[5].value,
         baujahr:        inputArray[6].value
     }
