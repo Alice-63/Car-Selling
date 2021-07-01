@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+
+body
+{
+    font-family: "Segoe UI";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.anzeige
+{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin: 25px 50px;
+    
+}
+.anzeige>img
+{
+    width: 100%;
+}
+.data
+{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+}
+.data .titel
+{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.data .untertitel
+{
+    color: #949494;
+    margin-bottom: 10px;
+}
+.merkmale>div:first-child
+{
+    margin-bottom: 12px;
+}
+.merkmale span
+{
+    background-color: #d3bfbf;
+    border-radius: 3px;
+    padding: 4px 8px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#anzeigeContainer
+{
+    width: 50%;
+    display: flex;
+}
+#inputs
+{
+ display: flex;
+ flex-direction: column;
+ ;
+}
