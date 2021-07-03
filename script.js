@@ -68,18 +68,25 @@ function klick()
         kilometer:      inputArray[5].value,
         baujahr:        inputArray[6].value
     }
+
+    // if(auto.bildQuelle=="" || auto.kilometer=="" || auto.motorleistung=="" || (auto.titel =="" || auto.untertitel=="" || auto.baujahr=="" || auto.kraftstoff=="" )
+    // {
+    //     alert("Bitte")
+    // }
     if(parseInt(auto.baujahr) <1990)
     {
         alert("Das Auto ist zu alt zu verkaufen")
         return;
     }
     
+     else  if(auto.bildQuelle=="" || auto.kilometer=="" || auto.motorleistung=="" || auto.titel =="" || auto.untertitel=="" || auto.baujahr=="" || auto.kraftstoff=="" )
+    {
+        alert("Bitte aller Felder ausfüllen!")
+        return;
+    }
     
         autoAdd(auto)
-        for(i=0; i<inputArray.length; i++)
-        {
-            inputArray[i].value="";
-        }
+       
     
     
 }
